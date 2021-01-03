@@ -1,0 +1,132 @@
+*{margin: 0px; padding: 0px;}
+
+a{
+ text-decoration: none;   
+}
+
+/* Wrapper */
+
+.wrapper{
+  width: 100%;
+  padding: 20px 0px;  
+  overflow: hidden;
+}
+
+.wrapperContent{
+ width: 960px;
+ margin: auto;   
+}
+
+.headeSection{
+ float: left;   
+}
+
+.headeSection h1,p{
+ color: #979797;   
+}
+
+/* Menu section style */
+.navigation{
+  float: right;  
+}
+
+.navigation a{
+ padding: 20px 10px;   
+ display: inline-block;
+ color: #979797; 
+}
+
+.navigation a:hover{
+  color: #FF9987;  
+}
+
+
+/* Banner section style */
+
+.banner{
+    width: 100%;
+    margin: auto;
+}
+
+
+/* Content Section style*/
+
+.sectionWrap{
+  display: flex; 
+  justify-content: center; 
+}
+
+.section1{
+  flex: 3;  
+}
+
+/* Category */
+
+.category h3{
+ color: #979797;   
+}
+
+.category ul{
+ list-style: none;   
+}
+
+.category ul li{
+  margin-bottom: 1px;  
+  border-bottom: 1px dotted black;
+}
+
+.category ul li a{
+    color: #979797;  
+    padding: 7px 0px;
+    display: block;
+}
+
+.category ul li a:hover{
+    color: rgb(238, 158, 11);    
+}
+
+
+/* Address Section style */
+
+.addressWrap{
+ margin-top: 30px;   
+}
+
+.addressWrap h3{
+    color: #979797;   
+}
+
+address{
+    color: #979797;    
+    padding: 20px 0px;
+}
+
+.section2{
+  flex: 5;  
+}
+
+
+.articalContent{
+  margin-left: 20px; 
+  margin-bottom: 20px; 
+}
+
+.articalContent h3{
+    color: #979797;   
+}
+
+
+
+
+/* footer Section style */
+
+footer{
+ width: 100%;        
+ overflow: hidden;
+}
+
+footer p{
+    color: #979797;    
+    float: left;
+    margin-left: 10px;
+}
